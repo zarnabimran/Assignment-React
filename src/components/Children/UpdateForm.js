@@ -7,7 +7,6 @@ let regex = new RegExp(
 );
 
 const UserForm = ({ data, onSubmit, onClose }) => {
-  console.log("user data------------>", data);
 
   const [name, setName] = useState(data[0].name);
   const [email, setEmail] = useState(data[0].emailAddress);

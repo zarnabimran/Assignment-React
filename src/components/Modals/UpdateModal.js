@@ -19,7 +19,6 @@ const UpdateModal = ({ showing, onClose, data, updateUser }) => {
       data: updatedData,
     })
       .then((response) => {
-        console.log(response);
 
         return updateUser(updatedData);
       })
