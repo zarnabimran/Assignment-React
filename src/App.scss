@@ -1,0 +1,137 @@
+@import "~bootstrap/scss/bootstrap";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  .Card {
+    width: auto;
+    height: 426.5px;
+    margin: 15px;
+    .cardhead {
+      background-color: #f5f5f5 !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+    .card-body {
+      text-align: left !important;
+    }
+    .ant-card-actions {
+      background-color: #f5f5f5 !important;
+    }
+  }
+}
+
+.modal-content {
+  border-radius: 12px !important;
+}
+.modal-header {
+  padding: 15px 25px !important;
+}
+
+.modal-body {
+  padding: 15px 45px 0 !important;
+}
+
+.Close {
+  margin-left: 15px !important;
+}
+
+.modal-buttons {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  margin: 15px -45px 0 !important;
+  border-radius: 0 0 12px 12px;
+}
+
+.modal-buttons Button {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px !important;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.85) !important;
+  border-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.modal-buttons Button:hover {
+  background-color: #ddd;
+  border-color: #f1f1f1;
+}
+
+.modal-dialog {
+  max-width: 500px !important;
+  margin: 50vh auto !important;
+  transform: translateY(-25vh) !important;
+}
+
+.name {
+  text-transform: capitalize;
+  font-size: 20px;
+  display: block;
+  margin: 0 0 5px;
+}
+
+.icons {
+  display: inline-block;
+  vertical-align: middle;
+  margin: -7px 10px 0 0;
+}
+
+.error {
+  color: red !important;
+}
+
+.errorBorder {
+  border: 1px solid red !important;
+}
+.ant-form-item {
+  display: grid !important;
+  grid-template-columns: 100px auto;
+}
+
+.ant-form-item-label {
+  text-align: left !important;
+}
+
+.card-body-holder .spinner {
+  position: absolute;
+  left: 45%;
+  top: 50%;
+}
